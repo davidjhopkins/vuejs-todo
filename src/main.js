@@ -1,0 +1,12 @@
+/*jshint esversion: 6 */
+import Vue from 'vue';
+import store from './store';
+import App from './App.vue';
+
+Vue.config.debug = true;
+
+new Vue({
+    store,
+    el: 'body',
+    components: { App }
+});
